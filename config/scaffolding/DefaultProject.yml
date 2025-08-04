@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/cgodartSlagsoa
   gitUsername: cgodartSlagsoa
   gitBranch: main
+- name: TestPackage
+  gitServerName: myGit
+  gitUrl: https://github.com/cgodartSlagsoa
+  gitUsername: cgodartSlagsoa
+  gitBranch: main
