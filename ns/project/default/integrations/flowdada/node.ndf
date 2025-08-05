@@ -32,6 +32,27 @@
           <value name="form_qualified">false</value>
           <value name="is_global">false</value>
         </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">field</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment"></value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+            <value name="field_largerEditor">false</value>
+            <value name="field_password">false</value>
+            <value name="field_usereditable">false</value>
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">list</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">1</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <value name="is_soap_array_encoding_used">true</value>
+          <array name="rec_fields" type="record" depth="1">
+          </array>
+          <value name="modifiable">true</value>
+        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -79,9 +100,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">christophe.godart@slagsoa-consulting.net</value>
-    <value name="createdDate">1754317691355</value>
-    <value name="lastModifiedDate">1754317691355</value>
+    <value name="lastModifiedBy">christophe.godart@slagsoa-consulting.net</value>
+    <value name="lastModifiedDate">1754379460923</value>
     <value name="displayName">flowdada</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -102,8 +122,51 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
+        <value name="nodePathForDebug">0</value>
       </record>
       <null name="/0/0"/>
+      <record name="/1" javaclass="com.wm.util.Values">
+        <value name="name">TRY</value>
+        <value name="itemType">CONTROLS</value>
+        <value name="nodePathNew">1</value>
+        <number name="nodeIndex" type="Long">1</number>
+        <number name="lineNumberForDebug" type="Long">2</number>
+      </record>
+      <record name="/1/0" javaclass="com.wm.util.Values">
+        <value name="name">REPEAT</value>
+        <value name="itemType">CONTROLS</value>
+        <record name="in_array" javaclass="com.wm.util.Values">
+          <value name="name">/list</value>
+          <value name="type">record</value>
+          <value name="dim">1</value>
+          <Boolean name="isLink">false</Boolean>
+          <value name="field_name">list</value>
+          <null name="wrapper_type"/>
+        </record>
+        <value name="nodePathNew">1.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">3</number>
+      </record>
+      <record name="/1/0/0" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">Flow</value>
+          <value name="groupName">flow</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="displayName">debugLog</value>
+          <value name="serviceName">pub.flow:debugLog</value>
+          <value name="transformerSupport">false</value>
+        </record>
+        <number name="ui_step_index" type="Long">4</number>
+        <value name="nodePathNew">1.0.0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">4</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
+      </record>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
