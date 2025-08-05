@@ -9,17 +9,18 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="TestPackage">1.0</value>
+    <value name="intranetAbsence">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">14</value>
+  <value name="build">15</value>
   <null name="description"/>
   <value name="created_date">04-08-2025 14:07:23 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-08-05T07:44:31.930363327Z</value>
+  <value name="lastUpdated">2025-08-05T13:36:13.899588451Z</value>
   <value name="wmProjectId">fl01c30fbac65f6ed7a1c7e9</value>
   <value name="creator">Christophe Godart</value>
 </Values>

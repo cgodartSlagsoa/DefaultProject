@@ -13,3 +13,8 @@ packages:
   gitUrl: https://github.com/cgodartSlagsoa
   gitUsername: cgodartSlagsoa
   gitBranch: main
+- name: intranetAbsence
+  gitServerName: myGit
+  gitUrl: https://github.com/cgodartSlagsoa
+  gitUsername: cgodartSlagsoa
+  gitBranch: main
