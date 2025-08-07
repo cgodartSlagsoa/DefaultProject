@@ -9,6 +9,7 @@ packages:
   gitUsername: cgodartSlagsoa
   gitBranch: main
 - name: intranetAbsence
+  version: "1.0"
   gitServerName: myGit
   gitUrl: https://github.com/cgodartSlagsoa
   gitUsername: cgodartSlagsoa
@@ -18,3 +19,7 @@ packages:
   gitUrl: https://github.com/cgodartSlagsoa
   gitUsername: cgodartSlagsoa
   gitBranch: main
+security:
+- name: intranetAbsence
+  allowedServices: []
+  javaServiceSetting: ALL
